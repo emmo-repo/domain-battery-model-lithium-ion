@@ -3,7 +3,7 @@ name: "Sphinx: Render docs"
 on: 
   push:
     branches:
-      - 'master'
+      - 'main'
     
 env:
   GIT_USER_NAME: BattINFO Developers
@@ -64,7 +64,7 @@ jobs:
         
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/master'
+      if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: docs/_build/html
