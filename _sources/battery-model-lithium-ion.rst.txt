@@ -75,6 +75,10 @@ ActivationEnergyOfLithiumDiffusivityInPositiveElectrode
 .. raw:: html
 
   <table class="element-table">
+  <tr>
+  <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
+  <td class="element-table-value">the activation energy barrier in an Arrhenius expression for the diffusivity of lithium in the positive electrode</td>
+  </tr>
   </table>
 
 
