@@ -50,6 +50,21 @@
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['electrolyte','initial_concentration','value']"@en .
 
 
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_0a1e73c5_e91b_4365_88d4_1e1f476bf776
+:modellib_0a1e73c5_e91b_4365_88d4_1e1f476bf776 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_a5571263_f153_448f_84a3_cd18092cf8fa ;
+                                               skos:prefLabel "PositiveElectrodeActiveMaterialVolumetricSurfaceArea"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Surface area per unit volume [m-1]']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_0e2f4fe6_570a_4d13_81e9_de1d4f9987af
+:modellib_0e2f4fe6_570a_4d13_81e9_de1d4f9987af rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_9c657fdc_b9d3_4964_907c_f9a6e8c5f52b ;
+                                               skos:prefLabel "NegativeElectrodeActiveMaterialOpenCircuitVoltage"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','OCP [V]']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'OCP','value']"@en .
+
+
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_0ea21f71_d1bd_4714_a260_b991e6d4bcf7
 :modellib_0ea21f71_d1bd_4714_a260_b991e6d4bcf7 rdf:type owl:Class ;
                                                rdfs:subClassOf emmo:EMMO_06448f64_8db6_4304_8b2c_e785dba82044 ;
@@ -65,6 +80,14 @@
                                                skos:prefLabel "NegativeElectrodeLithiumStoichiometricCoefficientAtSOC0"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Minimum stoichiometry']"@en ;
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'stoichiometry0','value']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_404126e0_cb1b_44e4_98dc_2474185767a1
+:modellib_404126e0_cb1b_44e4_98dc_2474185767a1 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_0335e3f6_d1d8_4daa_8376_a9285f1bc9f1 ;
+                                               skos:prefLabel "PositiveElectrodeReactionRateConstant"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Reaction rate constant [mol.m-2.s-1]']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'kinetic_constant','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_43f77743_1af6_4a0f_9cc6_285c2a450549
@@ -102,6 +125,21 @@
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'diffusion_constant','value']"@en .
 
 
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_52ab4fdd_f945_4541_9ce6_cd6fd3a05861
+:modellib_52ab4fdd_f945_4541_9ce6_cd6fd3a05861 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_9c657fdc_b9d3_4964_907c_f9a6e8c5f52b ;
+                                               skos:prefLabel "PositiveElectrodeActiveMaterialOpenCircuitVoltage"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','OCP [V]']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'OCP','value']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_56b9cd1f_5397_4385_9292_30d93d9e7a05
+:modellib_56b9cd1f_5397_4385_9292_30d93d9e7a05 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_d7f8cab9_b035_4ecd_be63_292672572526 ;
+                                               skos:prefLabel "PostiveElectrodeActivationEnergyOfReaction"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Reaction rate constant activation energy [J.mol-1]']"@en .
+
+
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_56de36fe_e8e1_486c_8d29_061ac8d28c13
 :modellib_56de36fe_e8e1_486c_8d29_061ac8d28c13 rdf:type owl:Class ;
                                                rdfs:subClassOf electrochemistry:electrochemistry_d7f8cab9_b035_4ecd_be63_292672572526 ;
@@ -111,6 +149,22 @@
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['electrolyte','diffusion_constant','arrhenius','activation_energy']"@en .
 
 
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_58400817_3282_46e5_942e_3a1538631403
+:modellib_58400817_3282_46e5_942e_3a1538631403 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_b92e382f_5109_4f60_ab5e_c89d340419a9 ;
+                                               skos:prefLabel "PositiveElectrodeActiveMaterialParticleRadius"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Particle radius [m]']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'particle_radius','value']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_5cb403c4_4f28_46cb_81c4_21c5c47ef14a
+:modellib_5cb403c4_4f28_46cb_81c4_21c5c47ef14a rdf:type owl:Class ;
+                                               rdfs:subClassOf emmo:EMMO_3a6578ac_aee0_43b9_9bc6_1eb208c8c9a9 ;
+                                               skos:prefLabel "NegativeElectrodeCoatingPorosity"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Porosity']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','porosity','value']"@en .
+
+
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_62f5beeb_6d1e_442a_8048_3ebe08882964
 :modellib_62f5beeb_6d1e_442a_8048_3ebe08882964 rdf:type owl:Class ;
                                                rdfs:subClassOf electrochemistry:electrochemistry_3b938708_e7e4_4ac0_a959_9c04306302e7 ;
@@ -118,6 +172,14 @@
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "thickness of the positive electrode coating"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Thickness [m]']"@en ;
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','thickness','value']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_7481c4c9_c247_4248_a045_a1077230acba
+:modellib_7481c4c9_c247_4248_a045_a1077230acba rdf:type owl:Class ;
+                                               rdfs:subClassOf emmo:EMMO_3a6578ac_aee0_43b9_9bc6_1eb208c8c9a9 ;
+                                               skos:prefLabel "PositiveElectrodeCoatingPorosity"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Porosity']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','porosity','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_80920875_62ac_4e29_b970_ec4316e76aa5
@@ -197,6 +259,29 @@
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','electronic_conductivity','value']"@en .
 
 
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_bfe553c2_a63e_49b6_a209_0855dfc39724
+:modellib_bfe553c2_a63e_49b6_a209_0855dfc39724 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_b92e382f_5109_4f60_ab5e_c89d340419a9 ;
+                                               skos:prefLabel "NegativeElectrodeActiveMaterialParticleRadius"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Particle radius [m]']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'particle_radius','value']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_c5dcb1a2_f2cf_421a_b8ae_47a88a61fce3
+:modellib_c5dcb1a2_f2cf_421a_b8ae_47a88a61fce3 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_0335e3f6_d1d8_4daa_8376_a9285f1bc9f1 ;
+                                               skos:prefLabel "NegativeElectrodeReactionRateConstant"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Reaction rate constant [mol.m-2.s-1]']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'kinetic_constant','value']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_c5f9b91e_a770_4e9b_837e_fa2a76019111
+:modellib_c5f9b91e_a770_4e9b_837e_fa2a76019111 rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_a5571263_f153_448f_84a3_cd18092cf8fa ;
+                                               skos:prefLabel "NegativeElectrodeActiveMaterialVolumetricSurfaceArea"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Surface area per unit volume [m-1]']"@en .
+
+
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_c69a9d55_823f_4113_a305_ebc89dde7de3
 :modellib_c69a9d55_823f_4113_a305_ebc89dde7de3 rdf:type owl:Class ;
                                                rdfs:subClassOf electrochemistry:electrochemistry_47287d09_6108_45ca_ac65_8b9451b1065e ;
@@ -259,24 +344,31 @@
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'entropy_coefficient','value']"@en .
 
 
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_fda9539d_5232_471c_8945_b9a8ec7247fe
+:modellib_fda9539d_5232_471c_8945_b9a8ec7247fe rdf:type owl:Class ;
+                                               rdfs:subClassOf electrochemistry:electrochemistry_d7f8cab9_b035_4ecd_be63_292672572526 ;
+                                               skos:prefLabel "NegativeElectrodeActivationEnergyOfReaction"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Reaction rate constant activation energy [J.mol-1]']"@en .
+
+
 #################################################################
 #    Annotations
 #################################################################
 
-electrochemistry:electrochemistry_39a44af0_0e1a_4859_b550_bdabad64386e :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Ambient temperature [K]']"@en ;
-                                                                       :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['simulation','initial_state','exterior_temperature','value']"@en .
+electrochemistry:electrochemistry_39a44af0_0e1a_4859_b550_bdabad64386e :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['simulation','initial_state','exterior_temperature','value']"@en ;
+                                                                       :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Ambient temperature [K]']"@en .
 
 
-electrochemistry:electrochemistry_534dd59c_904c_45d9_8550_ae9d2eb6bbc9 :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Lower voltage cut-off [V]']"@en ;
-                                                                       :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['simulation','triggers','voltage','lower']"@en .
+electrochemistry:electrochemistry_534dd59c_904c_45d9_8550_ae9d2eb6bbc9 :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['simulation','triggers','voltage','lower']"@en ;
+                                                                       :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Lower voltage cut-off [V]']"@en .
 
 
-electrochemistry:electrochemistry_9c9b80a4_a00b_4b91_8e17_3a7831f2bf2f :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Initial temperature [K]']"@en ;
-                                                                       :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['simulation','initial_state','initial_temperature','value']"@en .
+electrochemistry:electrochemistry_9c9b80a4_a00b_4b91_8e17_3a7831f2bf2f :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['simulation','initial_state','initial_temperature','value']"@en ;
+                                                                       :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Initial temperature [K]']"@en .
 
 
-electrochemistry:electrochemistry_fa7790d6_07bb_4b0f_9965_55966828f5f3 :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Electrode area [m2]']"@en ;
-                                                                       :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['properties','area','value']"@en .
+electrochemistry:electrochemistry_fa7790d6_07bb_4b0f_9965_55966828f5f3 :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['properties','area','value']"@en ;
+                                                                       :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Cell','Electrode area [m2]']"@en .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
