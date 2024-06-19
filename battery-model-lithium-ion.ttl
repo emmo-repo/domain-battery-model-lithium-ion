@@ -90,7 +90,7 @@
                                                skos:prefLabel "ActivationEnergyOfLithiumDiffusivityInPositiveElectrode"@en ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the activation energy barrier in an Arrhenius expression for the diffusivity of lithium in the positive electrode"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Diffusivity activation energy [J.mol-1]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials','diffusion_constant','arrhenius','activation_energy']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'diffusion_constant','arrhenius','activation_energy']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_50247e71_75fe_4986_959e_fd06c6be98db
@@ -99,7 +99,7 @@
                                                skos:prefLabel "LithiumDiffusivityInNegativeElectrode"@en ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the diffusivity of lithium in the negative electrode"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Diffusivity [m2.s-1]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials','diffusion_constant','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'diffusion_constant','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_56de36fe_e8e1_486c_8d29_061ac8d28c13
@@ -125,7 +125,7 @@
                                                rdfs:subClassOf electrochemistry:electrochemistry_f22bd1ec_faca_4335_92a5_a1687154c622 ;
                                                skos:prefLabel "PositiveElectrodeLithiumStoichiometricCoefficientAtSOC0"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Minimum stoichiometry']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials','stoichiometry0','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'stoichiometry0','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_86af4487_33c1_4562_a00b_3a8252ffe378
@@ -134,7 +134,7 @@
                                                skos:prefLabel "ActivationEnergyOfLithiumDiffusivityInNegativeElectrode"@en ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the activation energy barrier in an Arrhenius expression for the diffusivity of lithium in the negative electrode"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Diffusivity activation energy [J.mol-1]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials','diffusion_constant','arrhenius','activation_energy']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'diffusion_constant','arrhenius','activation_energy']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_8c16cb12_41c1_43bd_9e7c_2eea7b06a1f0
@@ -151,7 +151,7 @@
                                                rdfs:subClassOf electrochemistry:electrochemistry_38ab058e_3912_48c2_a7eb_76d25d000820 ;
                                                skos:prefLabel "NegativeElectrodeLithiumStoichiometricCoefficientAtSOC100"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Maximum stoichiometry']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials','stoichiometry1','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'stoichiometry1','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_99041897_5c08_40ed_9118_3e77e9b0e191
@@ -159,7 +159,7 @@
                                                rdfs:subClassOf electrochemistry:electrochemistry_38ab058e_3912_48c2_a7eb_76d25d000820 ;
                                                skos:prefLabel "PositiveElectrodeLithiumStoichiometricCoefficientAtSOC100"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Maximum stoichiometry']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials','stoichiometry1','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'stoichiometry1','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_9cba2158_26ba_4dd7_b082_ba66dbb960c7
@@ -176,7 +176,7 @@
                                                rdfs:subClassOf electrochemistry:electrochemistry_3bb5ae23_59fa_4bc7_9495_803eb6719f28 ;
                                                skos:prefLabel "PositiveElectrodeEntropicChangeCoefficient"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Entropic change coefficient [V.K-1]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials','entropy_coefficient','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'entropy_coefficient','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_b4184e46_c53c_47cc_9bfc_186fd77836a5
@@ -203,7 +203,7 @@
                                                skos:prefLabel "PositiveElectrodeMaximumLithiumConcentration"@en ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "maximum concentration of lithium in the positive electrode"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Maximum concentration [mol.m-3]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials','maximum_concentration','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'maximum_concentration','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_ccde4e5f_ace4_41d1_b4d8_cbd63e6376e6
@@ -239,7 +239,7 @@
                                                skos:prefLabel "LithiumDiffusivityInPositiveElectrode"@en ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "the diffusivity of lithium in the positive electrode"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Diffusivity [m2.s-1]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials','diffusion_constant','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'diffusion_constant','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_e808a26a_5812_49e9_894c_b793c7fe0c38
@@ -248,7 +248,7 @@
                                                skos:prefLabel "NegativeElectrodeMaximumLithiumConcentration"@en ;
                                                emmo:EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9 "maximum concentration of lithium in the negative electrode"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Maximum concentration [mol.m-3]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials','maximum_concentration','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'maximum_concentration','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_eac57b09_5cc9_41d7_b2c8_40218d7fd47c
@@ -256,7 +256,7 @@
                                                rdfs:subClassOf electrochemistry:electrochemistry_3bb5ae23_59fa_4bc7_9495_803eb6719f28 ;
                                                skos:prefLabel "NegativeElectrodeEntropicChangeCoefficient"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Negative electrode','Entropic change coefficient [V.K-1]']"@en ;
-                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials','entropy_coefficient','value']"@en .
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['negative_electrode','active_materials',0,'entropy_coefficient','value']"@en .
 
 
 #################################################################
