@@ -160,6 +160,21 @@ BatteryCellVolume
 
 .. raw:: html
 
+   <div id="modellib_1923575e_05b0_4b8b_8d58_0b2f2ba41c3e"></div>
+
+ElectrolyteConductivity
+-----------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_1923575e_05b0_4b8b_8d58_0b2f2ba41c3e
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
    <div id="modellib_098f98dc_e015_4dbd_b358_a7ac3b3ecff3"></div>
 
 InitialLithiumConcentrationInElectrolyte

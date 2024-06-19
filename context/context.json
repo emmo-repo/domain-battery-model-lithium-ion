@@ -41,6 +41,7 @@
         "BatteryCellLumpedSpecificHeatCapacity": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_9cba2158_26ba_4dd7_b082_ba66dbb960c7",
         "BatteryCellSurfaceArea": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_ccde4e5f_ace4_41d1_b4d8_cbd63e6376e6",
         "BatteryCellVolume": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_b4184e46_c53c_47cc_9bfc_186fd77836a5",
+        "ElectrolyteConductivity": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_1923575e_05b0_4b8b_8d58_0b2f2ba41c3e",
         "InitialLithiumConcentrationInElectrolyte": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_098f98dc_e015_4dbd_b358_a7ac3b3ecff3",
         "LithiumDiffusivityInElectrolyte": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_4c274506_af5b_4ef1_8217_829ffd459f28",
         "LithiumDiffusivityInNegativeElectrode": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_50247e71_75fe_4986_959e_fd06c6be98db",
