@@ -255,6 +255,81 @@ LithiumTransportNumber
 
 .. raw:: html
 
+   <div id="modellib_fda9539d_5232_471c_8945_b9a8ec7247fe"></div>
+
+NegativeElectrodeActivationEnergyOfReaction
+-------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_fda9539d_5232_471c_8945_b9a8ec7247fe
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_0e2f4fe6_570a_4d13_81e9_de1d4f9987af"></div>
+
+NegativeElectrodeActiveMaterialOpenCircuitVoltage
+-------------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_0e2f4fe6_570a_4d13_81e9_de1d4f9987af
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_bfe553c2_a63e_49b6_a209_0855dfc39724"></div>
+
+NegativeElectrodeActiveMaterialParticleRadius
+---------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_bfe553c2_a63e_49b6_a209_0855dfc39724
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_c5f9b91e_a770_4e9b_837e_fa2a76019111"></div>
+
+NegativeElectrodeActiveMaterialVolumetricSurfaceArea
+----------------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_c5f9b91e_a770_4e9b_837e_fa2a76019111
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_5cb403c4_4f28_46cb_81c4_21c5c47ef14a"></div>
+
+NegativeElectrodeCoatingPorosity
+--------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_5cb403c4_4f28_46cb_81c4_21c5c47ef14a
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
    <div id="modellib_cdc91ec0_9fc5_4551_bbd9_6824c2920124"></div>
 
 NegativeElectrodeCoatingThickness
@@ -357,6 +432,81 @@ NegativeElectrodeMaximumLithiumConcentration
 
 .. raw:: html
 
+   <div id="modellib_c5dcb1a2_f2cf_421a_b8ae_47a88a61fce3"></div>
+
+NegativeElectrodeReactionRateConstant
+-------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_c5dcb1a2_f2cf_421a_b8ae_47a88a61fce3
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_52ab4fdd_f945_4541_9ce6_cd6fd3a05861"></div>
+
+PositiveElectrodeActiveMaterialOpenCircuitVoltage
+-------------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_52ab4fdd_f945_4541_9ce6_cd6fd3a05861
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_58400817_3282_46e5_942e_3a1538631403"></div>
+
+PositiveElectrodeActiveMaterialParticleRadius
+---------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_58400817_3282_46e5_942e_3a1538631403
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_0a1e73c5_e91b_4365_88d4_1e1f476bf776"></div>
+
+PositiveElectrodeActiveMaterialVolumetricSurfaceArea
+----------------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_0a1e73c5_e91b_4365_88d4_1e1f476bf776
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_7481c4c9_c247_4248_a045_a1077230acba"></div>
+
+PositiveElectrodeCoatingPorosity
+--------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_7481c4c9_c247_4248_a045_a1077230acba
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
    <div id="modellib_62f5beeb_6d1e_442a_8048_3ebe08882964"></div>
 
 PositiveElectrodeCoatingThickness
@@ -450,6 +600,36 @@ PositiveElectrodeMaximumLithiumConcentration
   <td class="element-table-key"><span class="element-table-key">Elucidation</span></td>
   <td class="element-table-value">maximum concentration of lithium in the positive electrode</td>
   </tr>
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_404126e0_cb1b_44e4_98dc_2474185767a1"></div>
+
+PositiveElectrodeReactionRateConstant
+-------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_404126e0_cb1b_44e4_98dc_2474185767a1
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_56b9cd1f_5397_4385_9292_30d93d9e7a05"></div>
+
+PostiveElectrodeActivationEnergyOfReaction
+------------------------------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_56b9cd1f_5397_4385_9292_30d93d9e7a05
+
+.. raw:: html
+
+  <table class="element-table">
   </table>
 
 
