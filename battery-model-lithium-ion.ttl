@@ -106,6 +106,14 @@
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','electronic_conductivity','value']"@en .
 
 
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_47288277_4aed_447e_b659_0c975d031406
+:modellib_47288277_4aed_447e_b659_0c975d031406 rdf:type owl:Class ;
+                                               rdfs:subClassOf emmo:EMMO_43003c86_9d15_433b_9789_ee2940920656 ;
+                                               skos:prefLabel "SeparatorThickness"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Separator','Thickness [m]']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['separator','thickness','value']"@en .
+
+
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_4c274506_af5b_4ef1_8217_829ffd459f28
 :modellib_4c274506_af5b_4ef1_8217_829ffd459f28 rdf:type owl:Class ;
                                                rdfs:subClassOf electrochemistry:electrochemistry_37b24a94_cae0_4d7a_9519_9f7692dec607 ;
@@ -247,6 +255,14 @@
                                                skos:prefLabel "PositiveElectrodeEntropicChangeCoefficient"@en ;
                                                :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Positive electrode','Entropic change coefficient [V.K-1]']"@en ;
                                                :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['positive_electrode','active_materials',0,'entropy_coefficient','value']"@en .
+
+
+###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_a4858e4d_dd3b_48ce_97ba_3eeb8571b633
+:modellib_a4858e4d_dd3b_48ce_97ba_3eeb8571b633 rdf:type owl:Class ;
+                                               rdfs:subClassOf emmo:EMMO_3a6578ac_aee0_43b9_9bc6_1eb208c8c9a9 ;
+                                               skos:prefLabel "SeparatorPorosity"@en ;
+                                               :bmli_0a5b99ee_995b_4899_a79b_925a4086da37 "['Parameterisation','Separator','Porosity']"@en ;
+                                               :bmli_1b718841_5d72_4071_bb71_fc4a754f5e30 "['separator','porosity','value']"@en .
 
 
 ###  https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_b4184e46_c53c_47cc_9bfc_186fd77836a5
