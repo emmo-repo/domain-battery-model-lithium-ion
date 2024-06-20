@@ -650,6 +650,36 @@ PostiveElectrodeActivationEnergyOfReaction
 
 .. raw:: html
 
+   <div id="modellib_a4858e4d_dd3b_48ce_97ba_3eeb8571b633"></div>
+
+SeparatorPorosity
+-----------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_a4858e4d_dd3b_48ce_97ba_3eeb8571b633
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
+   <div id="modellib_47288277_4aed_447e_b659_0c975d031406"></div>
+
+SeparatorThickness
+------------------
+
+* https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_47288277_4aed_447e_b659_0c975d031406
+
+.. raw:: html
+
+  <table class="element-table">
+  </table>
+
+
+.. raw:: html
+
    <div id="bmli_e5e86474_8623_48ea_a1cf_502bdb10aa14"></div>
 
 battmoKey

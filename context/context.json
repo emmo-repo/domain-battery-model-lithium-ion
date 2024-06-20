@@ -71,6 +71,8 @@
         "PositiveElectrodeMaximumLithiumConcentration": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_c69a9d55_823f_4113_a305_ebc89dde7de3",
         "PositiveElectrodeReactionRateConstant": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_404126e0_cb1b_44e4_98dc_2474185767a1",
         "PostiveElectrodeActivationEnergyOfReaction": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_56b9cd1f_5397_4385_9292_30d93d9e7a05",
+        "SeparatorPorosity": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_a4858e4d_dd3b_48ce_97ba_3eeb8571b633",
+        "SeparatorThickness": "https://w3id.org/emmo/domain/battery-model-lithium-ion#modellib_47288277_4aed_447e_b659_0c975d031406",
         "battmoKey": "https://w3id.org/emmo/domain/battery-model-lithium-ion#bmli_e5e86474_8623_48ea_a1cf_502bdb10aa14",
         "bpxKey": "https://w3id.org/emmo/domain/battery-model-lithium-ion#bmli_0a5b99ee_995b_4899_a79b_925a4086da37",
         "cidemodKey": "https://w3id.org/emmo/domain/battery-model-lithium-ion#bmli_1b718841_5d72_4071_bb71_fc4a754f5e30"
